@@ -1,0 +1,42 @@
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  .open-sans-bold {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: bold;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  .android-hero-multimedia__wrapper {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    grid-template-rows: [first-row] auto [second-row] auto [third-row] auto [fourth-row] auto;
+    justify-items: center;
+    position: relative;
+}
+    .shiny-sec {
+      background: linear-gradient(135deg, #a476ff 25%, #eee5ff 50%, #a476ff 75%);
+      background-size: 400% 100%;
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      animation: shine 3s linear infinite;
+    }
+  
+    @keyframes shine {
+      0% {
+        background-position: 100% 50%;
+      }
+      30%,
+      70% {
+        background-position: 0% 50%;
+      }
+    }
