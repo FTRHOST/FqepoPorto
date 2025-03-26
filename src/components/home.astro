@@ -1,0 +1,42 @@
+---
+
+---
+
+<section class="text-[var(--dark)] mt-12 md:mt-0" id="home">
+  <div class="max-w-5xl mx-auto space-y-8 md:py-36 pb-14">
+    <div class="text-left space-y-4">
+      <p class="text-body font-medium md:text-2xl">
+        Hai, saya adalah
+      </p>
+        <h1
+          class="text-[var(--body)] text-5xl md:text-6xl font-medium text-pretty"
+        >Muhammad Fathir Al Faruq
+        </h1>
+        <p class="text-md md:text-2xl text-[var(--body-icon)]">
+          Suka belajar mengenai Cloud Server serta Artificial Intellegence (Mechine Learning) dan tertarik dengan bahasa <span class="text-[var(--sec)] shiny-sec"
+            >Pemrograman</span
+          > JavaScript.
+        </p>
+  </div>
+</section>
+
+<style is:global>
+  .shiny-sec {
+    background: linear-gradient(135deg, #a476ff 25%, #eee5ff 50%, #a476ff 75%);
+    background-size: 400% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: shine 3s linear infinite;
+  }
+
+  @keyframes shine {
+    0% {
+      background-position: 100% 50%;
+    }
+    30%,
+    70% {
+      background-position: 0% 50%;
+    }
+  }
+</style>
