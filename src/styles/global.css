@@ -1,4 +1,4 @@
-.open-sans {
+  .open-sans {
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
@@ -6,7 +6,7 @@
     font-variation-settings:
       "wdth" 100;
   }
-  .open-sans-bold {
+  .open-sans-bold {  
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
@@ -39,4 +39,9 @@
       70% {
         background-position: 0% 50%;
       }
+    }
+
+    .text-primary {
+    --tw-text-opacity: 1;
+    color: rgb(79 70 229 / var(--tw-text-opacity, 1));
     }
